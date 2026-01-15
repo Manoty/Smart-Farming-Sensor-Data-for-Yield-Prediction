@@ -1,0 +1,1544 @@
+[0m20:07:31.141398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002477DB952B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002477E65CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002477ECE3D90>]}
+
+
+============================== 20:07:31.154511 | 67168f0f-229f-42ff-881b-cd788fcfe8ee ==============================
+[0m20:07:31.154511 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:07:31.156085 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:07:31.160602 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt cannot run because no profile was specified for this dbt project.
+  To specify a profile for this project, add a line like the this to
+  your dbt_project.yml file:
+  
+  profile: [profile name]
+  
+  Here, [profile name] should be replaced with a profile name
+  defined in your profiles.yml file. You can find profiles.yml here:
+  
+  C:\Users\Evans Moseti\.dbt/profiles.yml
+  
+[0m20:07:31.164472 [debug] [MainThread]: Command `dbt run` failed at 20:07:31.164124 after 0.41 seconds
+[0m20:07:31.165518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002477ED02650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002477ED39A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002477EB86F10>]}
+[0m20:07:31.166607 [debug] [MainThread]: Flushing usage events
+[0m20:07:34.509652 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:17:00.636937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D72BE652B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D72C92CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D72CFB3D90>]}
+
+
+============================== 20:17:00.648404 | 89b85345-c269-438a-88a2-95950d402e93 ==============================
+[0m20:17:00.648404 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:17:00.649773 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:17:00.652133 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt cannot run because no profile was specified for this dbt project.
+  To specify a profile for this project, add a line like the this to
+  your dbt_project.yml file:
+  
+  profile: [profile name]
+  
+  Here, [profile name] should be replaced with a profile name
+  defined in your profiles.yml file. You can find profiles.yml here:
+  
+  C:\Users\Evans Moseti\.dbt/profiles.yml
+  
+[0m20:17:00.658574 [debug] [MainThread]: Command `dbt run` failed at 20:17:00.658284 after 0.33 seconds
+[0m20:17:00.659496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D72CFD2650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D72D009A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D72CE52F10>]}
+[0m20:17:00.660576 [debug] [MainThread]: Flushing usage events
+[0m20:17:02.418054 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:19:10.356322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F56B012B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F575CCB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F57C53D90>]}
+
+
+============================== 20:19:10.367109 | 8e483fe8-24ea-42e0-a939-06c9d0ceb07d ==============================
+[0m20:19:10.367109 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:19:10.369236 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:19:11.172846 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Required "name" field not present in project
+
+Error encountered in C:\kev\Smart Farming Sensor\smart-farm\dbt_project.yml
+[0m20:19:11.176782 [debug] [MainThread]: Command `dbt run` failed at 20:19:11.176424 after 1.11 seconds
+[0m20:19:11.177783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F58D6EFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F58D9E8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F58F4D590>]}
+[0m20:19:11.179272 [debug] [MainThread]: Flushing usage events
+[0m20:19:12.916596 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:20:00.624842 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D81F3A12B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D81FE60B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D8204F3D90>]}
+
+
+============================== 20:20:00.636416 | 8f0466cf-2c01-4a0e-959d-70012fc305c9 ==============================
+[0m20:20:00.636416 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:20:00.638085 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:20:00.891167 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Required "name" field not present in project
+
+Error encountered in C:\kev\Smart Farming Sensor\smart-farm\dbt_project.yml
+[0m20:20:00.896542 [debug] [MainThread]: Command `dbt run` failed at 20:20:00.896165 after 0.55 seconds
+[0m20:20:00.897666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D82160EFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D82163E8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D82170D590>]}
+[0m20:20:00.898870 [debug] [MainThread]: Flushing usage events
+[0m20:20:02.580815 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:21:27.351244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017267A012B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000172684C0B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017268B53D90>]}
+
+
+============================== 20:21:27.360161 | 4a910c54-2f90-4c8b-b633-f9e99f5d58be ==============================
+[0m20:21:27.360161 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:21:27.361631 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:21:27.442415 [info ] [MainThread]: dbt version: 1.11.2
+[0m20:21:27.443676 [info ] [MainThread]: python version: 3.13.4
+[0m20:21:27.444901 [info ] [MainThread]: python path: C:\kev\Smart Farming Sensor\smart-farm\dbt-env\Scripts\python.exe
+[0m20:21:27.445990 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m20:21:27.701566 [info ] [MainThread]: Using profiles dir at C:\Users\Evans Moseti\.dbt
+[0m20:21:27.702828 [info ] [MainThread]: Using profiles.yml file at C:\Users\Evans Moseti\.dbt\profiles.yml
+[0m20:21:27.704206 [info ] [MainThread]: Using dbt_project.yml file at C:\kev\Smart Farming Sensor\smart-farm\dbt_project.yml
+[0m20:21:27.759904 [info ] [MainThread]: adapter type: duckdb
+[0m20:21:27.761411 [info ] [MainThread]: adapter version: 1.10.0
+[0m20:21:27.771244 [info ] [MainThread]: Configuration:
+[0m20:21:27.772562 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:21:27.774419 [info ] [MainThread]:   dbt_project.yml file [[31mERROR invalid[0m]
+[0m20:21:27.775778 [info ] [MainThread]: Required dependencies:
+[0m20:21:27.778153 [debug] [MainThread]: Executing "git --help"
+[0m20:21:27.882005 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:21:27.882911 [debug] [MainThread]: STDERR: "b''"
+[0m20:21:27.883509 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:21:27.884650 [info ] [MainThread]: Connection:
+[0m20:21:27.885761 [info ] [MainThread]:   database: smart_farming
+[0m20:21:27.886810 [info ] [MainThread]:   schema: main
+[0m20:21:27.887860 [info ] [MainThread]:   path: ./smart_farming.duckdb
+[0m20:21:27.888826 [info ] [MainThread]:   config_options: None
+[0m20:21:27.890242 [info ] [MainThread]:   extensions: []
+[0m20:21:27.891420 [info ] [MainThread]:   settings: {}
+[0m20:21:27.892550 [info ] [MainThread]:   external_root: .
+[0m20:21:27.893815 [info ] [MainThread]:   use_credential_provider: None
+[0m20:21:27.897304 [info ] [MainThread]:   attach: None
+[0m20:21:27.901220 [info ] [MainThread]:   filesystems: None
+[0m20:21:27.902414 [info ] [MainThread]:   remote: None
+[0m20:21:27.903701 [info ] [MainThread]:   plugins: None
+[0m20:21:27.905735 [info ] [MainThread]:   disable_transactions: False
+[0m20:21:27.908174 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m20:21:28.465476 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m20:21:35.499190 [debug] [MainThread]: Using duckdb connection "debug"
+[0m20:21:35.499773 [debug] [MainThread]: On debug: select 1 as id
+[0m20:21:35.500182 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:21:35.564555 [debug] [MainThread]: SQL status: OK in 0.064 seconds
+[0m20:21:35.567113 [debug] [MainThread]: On debug: Close
+[0m20:21:35.567811 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:21:35.569032 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:21:35.570098 [info ] [MainThread]: Project loading failed for the following reason:
+Runtime Error
+  Required "name" field not present in project
+
+Error encountered in C:\kev\Smart Farming Sensor\smart-farm\dbt_project.yml
+
+
+[0m20:21:35.573717 [debug] [MainThread]: Command `dbt debug` failed at 20:21:35.573396 after 8.48 seconds
+[0m20:21:35.577092 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:21:35.578521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017269DC9350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017269E8C4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017269BE79B0>]}
+[0m20:21:35.579633 [debug] [MainThread]: Flushing usage events
+[0m20:21:37.595340 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:28:22.603563 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E4A5C12B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E4B08CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E4B713D90>]}
+
+
+============================== 20:28:22.620672 | 9c47ef43-b8b8-4991-a8ae-a4b00fc1cbde ==============================
+[0m20:28:22.620672 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:28:22.624261 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:28:22.695345 [info ] [MainThread]: dbt version: 1.11.2
+[0m20:28:22.696303 [info ] [MainThread]: python version: 3.13.4
+[0m20:28:22.697422 [info ] [MainThread]: python path: C:\kev\Smart Farming Sensor\smart-farm\dbt-env\Scripts\python.exe
+[0m20:28:22.698573 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m20:28:23.345550 [info ] [MainThread]: Using profiles dir at C:\Users\Evans Moseti\.dbt
+[0m20:28:23.346877 [info ] [MainThread]: Using profiles.yml file at C:\Users\Evans Moseti\.dbt\profiles.yml
+[0m20:28:23.348147 [info ] [MainThread]: Using dbt_project.yml file at C:\kev\Smart Farming Sensor\smart-farm\dbt_project.yml
+[0m20:28:23.352764 [info ] [MainThread]: adapter type: duckdb
+[0m20:28:23.353578 [info ] [MainThread]: adapter version: 1.10.0
+[0m20:28:23.367832 [info ] [MainThread]: Configuration:
+[0m20:28:23.369360 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:28:23.370900 [info ] [MainThread]:   dbt_project.yml file [[31mERROR invalid[0m]
+[0m20:28:23.379389 [info ] [MainThread]: Required dependencies:
+[0m20:28:23.382232 [debug] [MainThread]: Executing "git --help"
+[0m20:28:23.517503 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:28:23.518808 [debug] [MainThread]: STDERR: "b''"
+[0m20:28:23.519682 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:28:23.520858 [info ] [MainThread]: Connection:
+[0m20:28:23.521764 [info ] [MainThread]:   database: smart_farming
+[0m20:28:23.526439 [info ] [MainThread]:   schema: main
+[0m20:28:23.528805 [info ] [MainThread]:   path: ./smart_farming.duckdb
+[0m20:28:23.530017 [info ] [MainThread]:   config_options: None
+[0m20:28:23.531323 [info ] [MainThread]:   extensions: []
+[0m20:28:23.532841 [info ] [MainThread]:   settings: {}
+[0m20:28:23.536043 [info ] [MainThread]:   external_root: .
+[0m20:28:23.538014 [info ] [MainThread]:   use_credential_provider: None
+[0m20:28:23.601237 [info ] [MainThread]:   attach: None
+[0m20:28:23.602749 [info ] [MainThread]:   filesystems: None
+[0m20:28:23.604039 [info ] [MainThread]:   remote: None
+[0m20:28:23.605407 [info ] [MainThread]:   plugins: None
+[0m20:28:23.613459 [info ] [MainThread]:   disable_transactions: False
+[0m20:28:23.615243 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m20:28:24.689097 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m20:28:24.968915 [debug] [MainThread]: Using duckdb connection "debug"
+[0m20:28:24.969887 [debug] [MainThread]: On debug: select 1 as id
+[0m20:28:24.970887 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:28:25.141777 [debug] [MainThread]: SQL status: OK in 0.171 seconds
+[0m20:28:25.148361 [debug] [MainThread]: On debug: Close
+[0m20:28:25.149518 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:28:25.156019 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:28:25.158228 [info ] [MainThread]: Project loading failed for the following reason:
+Runtime Error
+  Required "name" field not present in project
+
+Error encountered in C:\kev\Smart Farming Sensor\smart-farm\dbt_project.yml
+
+
+[0m20:28:25.174474 [debug] [MainThread]: Command `dbt debug` failed at 20:28:25.173377 after 2.98 seconds
+[0m20:28:25.176404 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:28:25.185900 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E4C999350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E4CA5C4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E4C7A79B0>]}
+[0m20:28:25.190636 [debug] [MainThread]: Flushing usage events
+[0m20:28:27.798483 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:30:01.530672 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020759E652B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002075A92CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002075AFB3D90>]}
+
+
+============================== 20:30:01.541818 | f564328e-d554-4576-8baf-bc3ad74efc55 ==============================
+[0m20:30:01.541818 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:30:01.543616 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:30:01.608203 [info ] [MainThread]: dbt version: 1.11.2
+[0m20:30:01.628372 [info ] [MainThread]: python version: 3.13.4
+[0m20:30:01.664914 [info ] [MainThread]: python path: C:\kev\Smart Farming Sensor\smart-farm\dbt-env\Scripts\python.exe
+[0m20:30:01.695570 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m20:30:02.122074 [info ] [MainThread]: Using profiles dir at C:\Users\Evans Moseti\.dbt
+[0m20:30:02.124692 [info ] [MainThread]: Using profiles.yml file at C:\Users\Evans Moseti\.dbt\profiles.yml
+[0m20:30:02.126117 [info ] [MainThread]: Using dbt_project.yml file at C:\kev\Smart Farming Sensor\smart-farm\dbt_project.yml
+[0m20:30:02.132545 [info ] [MainThread]: adapter type: duckdb
+[0m20:30:02.133882 [info ] [MainThread]: adapter version: 1.10.0
+[0m20:30:02.534399 [info ] [MainThread]: Configuration:
+[0m20:30:02.536131 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:30:02.540078 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:30:02.543673 [info ] [MainThread]: Required dependencies:
+[0m20:30:02.545560 [debug] [MainThread]: Executing "git --help"
+[0m20:30:02.665346 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:30:02.666790 [debug] [MainThread]: STDERR: "b''"
+[0m20:30:02.667826 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:30:02.669577 [info ] [MainThread]: Connection:
+[0m20:30:02.676297 [info ] [MainThread]:   database: smart_farming
+[0m20:30:02.678251 [info ] [MainThread]:   schema: main
+[0m20:30:02.679540 [info ] [MainThread]:   path: ./smart_farming.duckdb
+[0m20:30:02.680980 [info ] [MainThread]:   config_options: None
+[0m20:30:02.682289 [info ] [MainThread]:   extensions: []
+[0m20:30:02.683520 [info ] [MainThread]:   settings: {}
+[0m20:30:02.685982 [info ] [MainThread]:   external_root: .
+[0m20:30:02.695605 [info ] [MainThread]:   use_credential_provider: None
+[0m20:30:02.697101 [info ] [MainThread]:   attach: None
+[0m20:30:02.698365 [info ] [MainThread]:   filesystems: None
+[0m20:30:02.699535 [info ] [MainThread]:   remote: None
+[0m20:30:02.700699 [info ] [MainThread]:   plugins: None
+[0m20:30:02.702680 [info ] [MainThread]:   disable_transactions: False
+[0m20:30:02.713660 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m20:30:03.595074 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m20:30:03.781971 [debug] [MainThread]: Using duckdb connection "debug"
+[0m20:30:03.782979 [debug] [MainThread]: On debug: select 1 as id
+[0m20:30:03.784151 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:30:03.844457 [debug] [MainThread]: SQL status: OK in 0.060 seconds
+[0m20:30:03.847464 [debug] [MainThread]: On debug: Close
+[0m20:30:03.848665 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:30:03.850564 [info ] [MainThread]: [32mAll checks passed![0m
+[0m20:30:03.853627 [debug] [MainThread]: Command `dbt debug` succeeded at 20:30:03.853283 after 2.86 seconds
+[0m20:30:03.854580 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:30:03.855640 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002075C2E9A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002075C6383B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002075C047350>]}
+[0m20:30:03.856762 [debug] [MainThread]: Flushing usage events
+[0m20:30:05.821788 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:30:20.771085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223003152B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022300DDCB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022301463D90>]}
+
+
+============================== 20:30:20.782909 | 600741da-5300-448f-90d2-e937a2628382 ==============================
+[0m20:30:20.782909 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:30:20.787407 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:30:21.828061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '600741da-5300-448f-90d2-e937a2628382', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223007B9810>]}
+[0m20:30:22.031792 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '600741da-5300-448f-90d2-e937a2628382', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022302749260>]}
+[0m20:30:22.037496 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m20:30:22.950821 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m20:30:22.953174 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:30:22.954577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '600741da-5300-448f-90d2-e937a2628382', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002230154C850>]}
+[0m20:30:30.386898 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.smart_farming.marts
+[0m20:30:30.405298 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '600741da-5300-448f-90d2-e937a2628382', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223029427B0>]}
+[0m20:30:30.645672 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\Smart Farming Sensor\smart-farm\target\manifest.json
+[0m20:30:30.659579 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\Smart Farming Sensor\smart-farm\target\semantic_manifest.json
+[0m20:30:30.738558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '600741da-5300-448f-90d2-e937a2628382', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022302AC3D90>]}
+[0m20:30:30.739788 [info ] [MainThread]: Found 1 model, 1 seed, 472 macros
+[0m20:30:30.741802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '600741da-5300-448f-90d2-e937a2628382', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022302A67C70>]}
+[0m20:30:30.751008 [info ] [MainThread]: 
+[0m20:30:30.758271 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:30:30.764182 [info ] [MainThread]: 
+[0m20:30:30.766260 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m20:30:30.776238 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_smart_farming'
+[0m20:30:31.008873 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming"
+[0m20:30:31.010204 [debug] [ThreadPool]: On list_smart_farming: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "list_smart_farming"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"smart_farming"'
+    
+  
+  
+[0m20:30:31.011910 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:30:31.111657 [debug] [ThreadPool]: SQL status: OK in 0.100 seconds
+[0m20:30:31.115825 [debug] [ThreadPool]: On list_smart_farming: Close
+[0m20:30:31.117701 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_smart_farming, now create_smart_farming_main)
+[0m20:30:31.120223 [debug] [ThreadPool]: Creating schema "database: "smart_farming"
+schema: "main"
+"
+[0m20:30:31.144920 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:30:31.145419 [debug] [ThreadPool]: On create_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "create_smart_farming_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='smart_farming'
+        and type='sqlite'
+    
+  
+[0m20:30:31.145821 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:30:31.147715 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m20:30:31.149903 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:30:31.150988 [debug] [ThreadPool]: On create_smart_farming_main: BEGIN
+[0m20:30:31.152739 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m20:30:31.156212 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:30:31.158638 [debug] [ThreadPool]: On create_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "create_smart_farming_main"} */
+
+    
+    
+        create schema if not exists "smart_farming"."main"
+    
+[0m20:30:31.161869 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m20:30:31.164578 [debug] [ThreadPool]: On create_smart_farming_main: COMMIT
+[0m20:30:31.165617 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:30:31.166550 [debug] [ThreadPool]: On create_smart_farming_main: COMMIT
+[0m20:30:31.168213 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m20:30:31.169010 [debug] [ThreadPool]: On create_smart_farming_main: Close
+[0m20:30:31.191419 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_smart_farming_main'
+[0m20:30:31.210982 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming_main"
+[0m20:30:31.212016 [debug] [ThreadPool]: On list_smart_farming_main: BEGIN
+[0m20:30:31.212797 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:30:31.214397 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m20:30:31.215292 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming_main"
+[0m20:30:31.216177 [debug] [ThreadPool]: On list_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "list_smart_farming_main"} */
+select
+      'smart_farming' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'smart_farming'
+  
+[0m20:30:31.286294 [debug] [ThreadPool]: SQL status: OK in 0.069 seconds
+[0m20:30:31.290513 [debug] [ThreadPool]: On list_smart_farming_main: ROLLBACK
+[0m20:30:31.294857 [debug] [ThreadPool]: Failed to rollback 'list_smart_farming_main'
+[0m20:30:31.295818 [debug] [ThreadPool]: On list_smart_farming_main: Close
+[0m20:30:31.297308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '600741da-5300-448f-90d2-e937a2628382', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022302D85FD0>]}
+[0m20:30:31.298098 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:30:31.298492 [debug] [MainThread]: On master: BEGIN
+[0m20:30:31.298883 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:30:31.299956 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:30:31.300549 [debug] [MainThread]: On master: COMMIT
+[0m20:30:31.301065 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:30:31.301545 [debug] [MainThread]: On master: COMMIT
+[0m20:30:31.302494 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m20:30:31.303334 [debug] [MainThread]: On master: Close
+[0m20:30:31.315767 [debug] [Thread-1 (]: Began running node model.smart_farming.stg_smart_farming
+[0m20:30:31.317262 [info ] [Thread-1 (]: 1 of 1 START sql view model main.stg_smart_farming ............................. [RUN]
+[0m20:30:31.319258 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.smart_farming.stg_smart_farming'
+[0m20:30:31.320447 [debug] [Thread-1 (]: Began compiling node model.smart_farming.stg_smart_farming
+[0m20:30:31.342166 [debug] [Thread-1 (]: Writing injected SQL for node "model.smart_farming.stg_smart_farming"
+[0m20:30:31.346171 [debug] [Thread-1 (]: Began executing node model.smart_farming.stg_smart_farming
+[0m20:30:31.449807 [debug] [Thread-1 (]: Writing runtime sql for node "model.smart_farming.stg_smart_farming"
+[0m20:30:31.453448 [debug] [Thread-1 (]: Using duckdb connection "model.smart_farming.stg_smart_farming"
+[0m20:30:31.457281 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: BEGIN
+[0m20:30:31.458625 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:30:31.461450 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m20:30:31.462541 [debug] [Thread-1 (]: Using duckdb connection "model.smart_farming.stg_smart_farming"
+[0m20:30:31.463462 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "node_id": "model.smart_farming.stg_smart_farming"} */
+
+  
+  create view "smart_farming"."main"."stg_smart_farming__dbt_tmp" as (
+    -- =====================================================
+-- STAGING MODEL: Smart Farming Sensor Data
+-- Purpose:
+-- 1. Standardize types
+-- 2. Normalize categorical logic
+-- 3. Add light exploratory features (clearly labeled)
+-- =====================================================
+
+WITH source AS (
+
+    SELECT *
+    FROM "smart_farming"."main"."smart_farming_sensor_data"
+
+),
+
+typed AS (
+
+    SELECT
+        -- Identifiers
+        farm_id,
+        sensor_id,
+
+        -- Categorical dimensions
+        region,
+        crop_type,
+        irrigation_type,
+        fertilizer_type,
+        crop_disease_status,
+
+        -- Environmental metrics
+        CAST(soil_moisture_pct AS DOUBLE)     AS soil_moisture_pct,
+        CAST(soil_ph AS DOUBLE)               AS soil_ph,
+        CAST(temperature_c AS DOUBLE)         AS temperature_c,
+        CAST(rainfall_mm AS DOUBLE)            AS rainfall_mm,
+        CAST(humidity_pct AS DOUBLE)           AS humidity_pct,
+        CAST(sunlight_hours AS DOUBLE)         AS sunlight_hours,
+        CAST(ndvi_index AS DOUBLE)             AS ndvi_index,
+
+        -- Operations
+        CAST(pesticide_usage_ml AS DOUBLE)     AS pesticide_usage_ml,
+
+        -- Dates and time
+        CAST(sowing_date AS DATE)              AS sowing_date,
+        CAST(harvest_date AS DATE)             AS harvest_date,
+        CAST(total_days AS INTEGER)             AS total_days,
+        CAST(timestamp AS TIMESTAMP)           AS sensor_timestamp,
+
+        -- Location
+        CAST(latitude AS DOUBLE)               AS latitude,
+        CAST(longitude AS DOUBLE)              AS longitude,
+
+        -- Target
+        CAST(yield_kg_per_hectare AS DOUBLE)   AS yield_kg_per_hectare
+
+    FROM source
+),
+
+enriched AS (
+
+    SELECT
+        *,
+
+        -- =================================================
+        -- Exploratory feature 1: disease severity score
+        -- =================================================
+        CASE
+            WHEN crop_disease_status = 'None' THEN 0
+            WHEN crop_disease_status = 'Mild' THEN 1
+            WHEN crop_disease_status = 'Moderate' THEN 2
+            WHEN crop_disease_status = 'Severe' THEN 3
+            ELSE NULL
+        END AS disease_severity_score,
+
+        -- =================================================
+        -- Exploratory feature 2: yield per day
+        -- Helps normalize across crops with different cycles
+        -- =================================================
+        CASE
+            WHEN total_days > 0
+            THEN yield_kg_per_hectare / total_days
+            ELSE NULL
+        END AS yield_per_day,
+
+        -- =================================================
+        -- Exploratory feature 3: NDVI health buckets
+        -- Useful for BI and early warning signals
+        -- =================================================
+        CASE
+            WHEN ndvi_index < 0.45 THEN 'Low'
+            WHEN ndvi_index BETWEEN 0.45 AND 0.65 THEN 'Medium'
+            WHEN ndvi_index > 0.65 THEN 'High'
+            ELSE 'Unknown'
+        END AS ndvi_health_bucket,
+
+        -- =================================================
+        -- Exploratory feature 4: soil pH suitability flag
+        -- =================================================
+        CASE
+            WHEN soil_ph BETWEEN 6.0 AND 7.0 THEN 1
+            ELSE 0
+        END AS optimal_soil_ph_flag
+
+    FROM typed
+)
+
+SELECT *
+FROM enriched
+  );
+
+[0m20:30:31.480565 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "node_id": "model.smart_farming.stg_smart_farming"} */
+
+  
+  create view "smart_farming"."main"."stg_smart_farming__dbt_tmp" as (
+    -- =====================================================
+-- STAGING MODEL: Smart Farming Sensor Data
+-- Purpose:
+-- 1. Standardize types
+-- 2. Normalize categorical logic
+-- 3. Add light exploratory features (clearly labeled)
+-- =====================================================
+
+WITH source AS (
+
+    SELECT *
+    FROM "smart_farming"."main"."smart_farming_sensor_data"
+
+),
+
+typed AS (
+
+    SELECT
+        -- Identifiers
+        farm_id,
+        sensor_id,
+
+        -- Categorical dimensions
+        region,
+        crop_type,
+        irrigation_type,
+        fertilizer_type,
+        crop_disease_status,
+
+        -- Environmental metrics
+        CAST(soil_moisture_pct AS DOUBLE)     AS soil_moisture_pct,
+        CAST(soil_ph AS DOUBLE)               AS soil_ph,
+        CAST(temperature_c AS DOUBLE)         AS temperature_c,
+        CAST(rainfall_mm AS DOUBLE)            AS rainfall_mm,
+        CAST(humidity_pct AS DOUBLE)           AS humidity_pct,
+        CAST(sunlight_hours AS DOUBLE)         AS sunlight_hours,
+        CAST(ndvi_index AS DOUBLE)             AS ndvi_index,
+
+        -- Operations
+        CAST(pesticide_usage_ml AS DOUBLE)     AS pesticide_usage_ml,
+
+        -- Dates and time
+        CAST(sowing_date AS DATE)              AS sowing_date,
+        CAST(harvest_date AS DATE)             AS harvest_date,
+        CAST(total_days AS INTEGER)             AS total_days,
+        CAST(timestamp AS TIMESTAMP)           AS sensor_timestamp,
+
+        -- Location
+        CAST(latitude AS DOUBLE)               AS latitude,
+        CAST(longitude AS DOUBLE)              AS longitude,
+
+        -- Target
+        CAST(yield_kg_per_hectare AS DOUBLE)   AS yield_kg_per_hectare
+
+    FROM source
+),
+
+enriched AS (
+
+    SELECT
+        *,
+
+        -- =================================================
+        -- Exploratory feature 1: disease severity score
+        -- =================================================
+        CASE
+            WHEN crop_disease_status = 'None' THEN 0
+            WHEN crop_disease_status = 'Mild' THEN 1
+            WHEN crop_disease_status = 'Moderate' THEN 2
+            WHEN crop_disease_status = 'Severe' THEN 3
+            ELSE NULL
+        END AS disease_severity_score,
+
+        -- =================================================
+        -- Exploratory feature 2: yield per day
+        -- Helps normalize across crops with different cycles
+        -- =================================================
+        CASE
+            WHEN total_days > 0
+            THEN yield_kg_per_hectare / total_days
+            ELSE NULL
+        END AS yield_per_day,
+
+        -- =================================================
+        -- Exploratory feature 3: NDVI health buckets
+        -- Useful for BI and early warning signals
+        -- =================================================
+        CASE
+            WHEN ndvi_index < 0.45 THEN 'Low'
+            WHEN ndvi_index BETWEEN 0.45 AND 0.65 THEN 'Medium'
+            WHEN ndvi_index > 0.65 THEN 'High'
+            ELSE 'Unknown'
+        END AS ndvi_health_bucket,
+
+        -- =================================================
+        -- Exploratory feature 4: soil pH suitability flag
+        -- =================================================
+        CASE
+            WHEN soil_ph BETWEEN 6.0 AND 7.0 THEN 1
+            ELSE 0
+        END AS optimal_soil_ph_flag
+
+    FROM typed
+)
+
+SELECT *
+FROM enriched
+  );
+
+[0m20:30:31.482351 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m20:30:31.483644 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: ROLLBACK
+[0m20:30:31.550862 [debug] [Thread-1 (]: Failed to rollback 'model.smart_farming.stg_smart_farming'
+[0m20:30:31.552132 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: Close
+[0m20:30:31.567393 [debug] [Thread-1 (]: Runtime Error in model stg_smart_farming (models\staging\stg_smart_farming.sql)
+  Catalog Error: Table with name smart_farming_sensor_data does not exist!
+  Did you mean "information_schema.table_constraints"?
+  
+  LINE 16:     FROM "smart_farming"."main"."smart_farming_sensor_data"
+                    ^
+[0m20:30:31.580924 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '600741da-5300-448f-90d2-e937a2628382', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022302D7DBD0>]}
+[0m20:30:31.582905 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model main.stg_smart_farming .................... [[31mERROR[0m in 0.25s]
+[0m20:30:31.587267 [debug] [Thread-1 (]: Finished running node model.smart_farming.stg_smart_farming
+[0m20:30:31.595530 [debug] [Thread-4 (]: Marking all children of 'model.smart_farming.stg_smart_farming' to be skipped because of status 'error'.  Reason: Runtime Error in model stg_smart_farming (models\staging\stg_smart_farming.sql)
+  Catalog Error: Table with name smart_farming_sensor_data does not exist!
+  Did you mean "information_schema.table_constraints"?
+  
+  LINE 16:     FROM "smart_farming"."main"."smart_farming_sensor_data"
+                    ^.
+[0m20:30:31.599302 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:30:31.600445 [debug] [MainThread]: On master: BEGIN
+[0m20:30:31.601415 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:30:31.602946 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:30:31.603819 [debug] [MainThread]: On master: COMMIT
+[0m20:30:31.606493 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:30:31.607539 [debug] [MainThread]: On master: COMMIT
+[0m20:30:31.609431 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:30:31.610947 [debug] [MainThread]: On master: Close
+[0m20:30:31.612089 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:30:31.613073 [debug] [MainThread]: Connection 'create_smart_farming_main' was properly closed.
+[0m20:30:31.613960 [debug] [MainThread]: Connection 'list_smart_farming_main' was properly closed.
+[0m20:30:31.614707 [debug] [MainThread]: Connection 'model.smart_farming.stg_smart_farming' was properly closed.
+[0m20:30:31.626107 [info ] [MainThread]: 
+[0m20:30:31.631332 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.85 seconds (0.85s).
+[0m20:30:31.642399 [debug] [MainThread]: Command end result
+[0m20:30:31.768341 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\Smart Farming Sensor\smart-farm\target\manifest.json
+[0m20:30:31.777030 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\Smart Farming Sensor\smart-farm\target\semantic_manifest.json
+[0m20:30:31.802055 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\Smart Farming Sensor\smart-farm\target\run_results.json
+[0m20:30:31.802969 [info ] [MainThread]: 
+[0m20:30:31.810733 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m20:30:31.813225 [info ] [MainThread]: 
+[0m20:30:31.815194 [error] [MainThread]: [31mFailure in model stg_smart_farming (models\staging\stg_smart_farming.sql)[0m
+[0m20:30:31.817224 [error] [MainThread]:   Runtime Error in model stg_smart_farming (models\staging\stg_smart_farming.sql)
+  Catalog Error: Table with name smart_farming_sensor_data does not exist!
+  Did you mean "information_schema.table_constraints"?
+  
+  LINE 16:     FROM "smart_farming"."main"."smart_farming_sensor_data"
+                    ^
+[0m20:30:31.819723 [info ] [MainThread]: 
+[0m20:30:31.821898 [info ] [MainThread]:   compiled code at target\compiled\smart_farming\models\staging\stg_smart_farming.sql
+[0m20:30:31.832002 [info ] [MainThread]: 
+[0m20:30:31.833417 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m20:30:31.836105 [debug] [MainThread]: Command `dbt run` failed at 20:30:31.835796 after 11.40 seconds
+[0m20:30:31.837306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022302B0FCF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022302D8ACC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002237E17D3D0>]}
+[0m20:30:31.837967 [debug] [MainThread]: Flushing usage events
+[0m20:30:33.974750 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:32:32.802468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEB59912B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEB645CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEB6AE3D90>]}
+
+
+============================== 20:32:32.813645 | 3e554702-6a0c-4eb8-a9ed-7ac58395a9b6 ==============================
+[0m20:32:32.813645 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:32:32.817454 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:32:33.581996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3e554702-6a0c-4eb8-a9ed-7ac58395a9b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEB5E39810>]}
+[0m20:32:33.785586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3e554702-6a0c-4eb8-a9ed-7ac58395a9b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEB7D0D260>]}
+[0m20:32:33.793580 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m20:32:34.527043 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m20:32:34.974679 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m20:32:34.976395 [debug] [MainThread]: Partial parsing: updated file: smart_farming://models\staging\stg_smart_farming.sql
+[0m20:32:35.812880 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.smart_farming.stg_smart_farming' (models\staging\stg_smart_farming.sql) depends on a node named 'information_schema.table_constraints' which was not found
+[0m20:32:35.817005 [debug] [MainThread]: Command `dbt run` failed at 20:32:35.816717 after 3.33 seconds
+[0m20:32:35.817955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEB7B9C750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEB7B9D250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FEB8134F50>]}
+[0m20:32:35.818869 [debug] [MainThread]: Flushing usage events
+[0m20:32:37.749768 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:36:09.442303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299AA2B12B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299AAD7CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299AB403D90>]}
+
+
+============================== 20:36:09.452855 | 707a8cd2-dcd0-4a01-bcfd-e99bf4da05a7 ==============================
+[0m20:36:09.452855 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:36:09.454868 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt ls', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:36:10.027160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '707a8cd2-dcd0-4a01-bcfd-e99bf4da05a7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299AA759810>]}
+[0m20:36:10.177423 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '707a8cd2-dcd0-4a01-bcfd-e99bf4da05a7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299AC509370>]}
+[0m20:36:10.184414 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m20:36:10.737383 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m20:36:11.024377 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:36:11.025293 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m20:36:11.026043 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:36:11.039945 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.smart_farming.marts
+[0m20:36:11.132171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '707a8cd2-dcd0-4a01-bcfd-e99bf4da05a7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299AC4BCF50>]}
+[0m20:36:11.297521 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\Smart Farming Sensor\smart-farm\target\manifest.json
+[0m20:36:11.301878 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\Smart Farming Sensor\smart-farm\target\semantic_manifest.json
+[0m20:36:11.355521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '707a8cd2-dcd0-4a01-bcfd-e99bf4da05a7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299AC8305F0>]}
+[0m20:36:11.356662 [info ] [MainThread]: Found 1 model, 1 seed, 472 macros
+[0m20:36:11.357892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '707a8cd2-dcd0-4a01-bcfd-e99bf4da05a7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299AC4E73F0>]}
+[0m20:36:11.359980 [info ] [MainThread]: smart_farming.staging.stg_smart_farming
+[0m20:36:11.361195 [info ] [MainThread]: smart_farming.smart_farming_sensor_data
+[0m20:36:11.364014 [debug] [MainThread]: Command `dbt ls` succeeded at 20:36:11.363649 after 2.17 seconds
+[0m20:36:11.365074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299ACA74E20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299AB1B3D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299AC95F290>]}
+[0m20:36:11.366100 [debug] [MainThread]: Flushing usage events
+[0m20:36:13.084199 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:40:28.220649 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839BB252B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839C5ECB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839CC73D90>]}
+
+
+============================== 20:40:28.226804 | af9b79e2-85c3-4851-9833-0a6ce607e260 ==============================
+[0m20:40:28.226804 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:40:28.228230 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:40:28.866368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'af9b79e2-85c3-4851-9833-0a6ce607e260', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839BFC9810>]}
+[0m20:40:29.022532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'af9b79e2-85c3-4851-9833-0a6ce607e260', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839DEC9150>]}
+[0m20:40:29.027375 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m20:40:29.627782 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m20:40:29.936851 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:40:29.937512 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m20:40:29.938039 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:40:29.955610 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.smart_farming.marts
+[0m20:40:30.056660 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'af9b79e2-85c3-4851-9833-0a6ce607e260', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839CD64F50>]}
+[0m20:40:30.257613 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\Smart Farming Sensor\smart-farm\target\manifest.json
+[0m20:40:30.262675 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\Smart Farming Sensor\smart-farm\target\semantic_manifest.json
+[0m20:40:30.324123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'af9b79e2-85c3-4851-9833-0a6ce607e260', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839CB93110>]}
+[0m20:40:30.325328 [info ] [MainThread]: Found 1 model, 1 seed, 472 macros
+[0m20:40:30.326761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'af9b79e2-85c3-4851-9833-0a6ce607e260', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839CD934D0>]}
+[0m20:40:30.330694 [info ] [MainThread]: 
+[0m20:40:30.332072 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:40:30.334554 [info ] [MainThread]: 
+[0m20:40:30.336413 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m20:40:30.338747 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_smart_farming'
+[0m20:40:30.541804 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming"
+[0m20:40:30.542784 [debug] [ThreadPool]: On list_smart_farming: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "list_smart_farming"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"smart_farming"'
+    
+  
+  
+[0m20:40:30.543600 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:40:30.587495 [debug] [ThreadPool]: SQL status: OK in 0.044 seconds
+[0m20:40:30.592111 [debug] [ThreadPool]: On list_smart_farming: Close
+[0m20:40:30.593809 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_smart_farming, now create_smart_farming_main)
+[0m20:40:30.594986 [debug] [ThreadPool]: Creating schema "database: "smart_farming"
+schema: "main"
+"
+[0m20:40:30.609066 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:40:30.609724 [debug] [ThreadPool]: On create_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "create_smart_farming_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='smart_farming'
+        and type='sqlite'
+    
+  
+[0m20:40:30.610167 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:40:30.613037 [debug] [ThreadPool]: SQL status: OK in 0.003 seconds
+[0m20:40:30.616727 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:40:30.617628 [debug] [ThreadPool]: On create_smart_farming_main: BEGIN
+[0m20:40:30.619017 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m20:40:30.619643 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:40:30.620026 [debug] [ThreadPool]: On create_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "create_smart_farming_main"} */
+
+    
+    
+        create schema if not exists "smart_farming"."main"
+    
+[0m20:40:30.622184 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m20:40:30.624703 [debug] [ThreadPool]: On create_smart_farming_main: COMMIT
+[0m20:40:30.625582 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:40:30.626386 [debug] [ThreadPool]: On create_smart_farming_main: COMMIT
+[0m20:40:30.627721 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m20:40:30.628564 [debug] [ThreadPool]: On create_smart_farming_main: Close
+[0m20:40:30.642013 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_smart_farming_main'
+[0m20:40:30.659243 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming_main"
+[0m20:40:30.660174 [debug] [ThreadPool]: On list_smart_farming_main: BEGIN
+[0m20:40:30.660945 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:40:30.662562 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m20:40:30.663495 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming_main"
+[0m20:40:30.664442 [debug] [ThreadPool]: On list_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "list_smart_farming_main"} */
+select
+      'smart_farming' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'smart_farming'
+  
+[0m20:40:30.708940 [debug] [ThreadPool]: SQL status: OK in 0.044 seconds
+[0m20:40:30.711844 [debug] [ThreadPool]: On list_smart_farming_main: ROLLBACK
+[0m20:40:30.714615 [debug] [ThreadPool]: Failed to rollback 'list_smart_farming_main'
+[0m20:40:30.715837 [debug] [ThreadPool]: On list_smart_farming_main: Close
+[0m20:40:30.718015 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'af9b79e2-85c3-4851-9833-0a6ce607e260', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839E4C2C30>]}
+[0m20:40:30.719175 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:40:30.719985 [debug] [MainThread]: On master: BEGIN
+[0m20:40:30.720774 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:40:30.722292 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:40:30.723111 [debug] [MainThread]: On master: COMMIT
+[0m20:40:30.723924 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:40:30.724701 [debug] [MainThread]: On master: COMMIT
+[0m20:40:30.726000 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:40:30.726858 [debug] [MainThread]: On master: Close
+[0m20:40:30.734133 [debug] [Thread-1 (]: Began running node model.smart_farming.stg_smart_farming
+[0m20:40:30.735546 [info ] [Thread-1 (]: 1 of 1 START sql view model main.stg_smart_farming ............................. [RUN]
+[0m20:40:30.737256 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.smart_farming.stg_smart_farming'
+[0m20:40:30.738327 [debug] [Thread-1 (]: Began compiling node model.smart_farming.stg_smart_farming
+[0m20:40:30.762700 [debug] [Thread-1 (]: Writing injected SQL for node "model.smart_farming.stg_smart_farming"
+[0m20:40:30.765827 [debug] [Thread-1 (]: Began executing node model.smart_farming.stg_smart_farming
+[0m20:40:30.853034 [debug] [Thread-1 (]: Writing runtime sql for node "model.smart_farming.stg_smart_farming"
+[0m20:40:30.854660 [debug] [Thread-1 (]: Using duckdb connection "model.smart_farming.stg_smart_farming"
+[0m20:40:30.855765 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: BEGIN
+[0m20:40:30.856856 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:40:30.858887 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m20:40:30.859939 [debug] [Thread-1 (]: Using duckdb connection "model.smart_farming.stg_smart_farming"
+[0m20:40:30.861465 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "node_id": "model.smart_farming.stg_smart_farming"} */
+
+  
+  create view "smart_farming"."main"."stg_smart_farming__dbt_tmp" as (
+    -- =====================================================
+-- STAGING MODEL: Smart Farming Sensor Data
+-- Purpose:
+-- 1. Standardize types
+-- 2. Normalize categorical logic
+-- 3. Add light exploratory features (clearly labeled)
+-- =====================================================
+
+WITH source AS (
+
+    SELECT *
+    FROM "smart_farming"."main"."smart_farming_sensor_data"
+
+),
+
+typed AS (
+
+    SELECT
+        -- Identifiers
+        farm_id,
+        sensor_id,
+
+        -- Categorical dimensions
+        region,
+        crop_type,
+        irrigation_type,
+        fertilizer_type,
+        crop_disease_status,
+
+        -- Environmental metrics
+        CAST(soil_moisture_pct AS DOUBLE)     AS soil_moisture_pct,
+        CAST(soil_ph AS DOUBLE)               AS soil_ph,
+        CAST(temperature_c AS DOUBLE)         AS temperature_c,
+        CAST(rainfall_mm AS DOUBLE)            AS rainfall_mm,
+        CAST(humidity_pct AS DOUBLE)           AS humidity_pct,
+        CAST(sunlight_hours AS DOUBLE)         AS sunlight_hours,
+        CAST(ndvi_index AS DOUBLE)             AS ndvi_index,
+
+        -- Operations
+        CAST(pesticide_usage_ml AS DOUBLE)     AS pesticide_usage_ml,
+
+        -- Dates and time
+        CAST(sowing_date AS DATE)              AS sowing_date,
+        CAST(harvest_date AS DATE)             AS harvest_date,
+        CAST(total_days AS INTEGER)             AS total_days,
+        CAST(timestamp AS TIMESTAMP)           AS sensor_timestamp,
+
+        -- Location
+        CAST(latitude AS DOUBLE)               AS latitude,
+        CAST(longitude AS DOUBLE)              AS longitude,
+
+        -- Target
+        CAST(yield_kg_per_hectare AS DOUBLE)   AS yield_kg_per_hectare
+
+    FROM source
+),
+
+enriched AS (
+
+    SELECT
+        *,
+
+        -- =================================================
+        -- Exploratory feature 1: disease severity score
+        -- =================================================
+        CASE
+            WHEN crop_disease_status = 'None' THEN 0
+            WHEN crop_disease_status = 'Mild' THEN 1
+            WHEN crop_disease_status = 'Moderate' THEN 2
+            WHEN crop_disease_status = 'Severe' THEN 3
+            ELSE NULL
+        END AS disease_severity_score,
+
+        -- =================================================
+        -- Exploratory feature 2: yield per day
+        -- Helps normalize across crops with different cycles
+        -- =================================================
+        CASE
+            WHEN total_days > 0
+            THEN yield_kg_per_hectare / total_days
+            ELSE NULL
+        END AS yield_per_day,
+
+        -- =================================================
+        -- Exploratory feature 3: NDVI health buckets
+        -- Useful for BI and early warning signals
+        -- =================================================
+        CASE
+            WHEN ndvi_index < 0.45 THEN 'Low'
+            WHEN ndvi_index BETWEEN 0.45 AND 0.65 THEN 'Medium'
+            WHEN ndvi_index > 0.65 THEN 'High'
+            ELSE 'Unknown'
+        END AS ndvi_health_bucket,
+
+        -- =================================================
+        -- Exploratory feature 4: soil pH suitability flag
+        -- =================================================
+        CASE
+            WHEN soil_ph BETWEEN 6.0 AND 7.0 THEN 1
+            ELSE 0
+        END AS optimal_soil_ph_flag
+
+    FROM typed
+)
+
+SELECT *
+FROM enriched
+  );
+
+[0m20:40:30.867062 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "node_id": "model.smart_farming.stg_smart_farming"} */
+
+  
+  create view "smart_farming"."main"."stg_smart_farming__dbt_tmp" as (
+    -- =====================================================
+-- STAGING MODEL: Smart Farming Sensor Data
+-- Purpose:
+-- 1. Standardize types
+-- 2. Normalize categorical logic
+-- 3. Add light exploratory features (clearly labeled)
+-- =====================================================
+
+WITH source AS (
+
+    SELECT *
+    FROM "smart_farming"."main"."smart_farming_sensor_data"
+
+),
+
+typed AS (
+
+    SELECT
+        -- Identifiers
+        farm_id,
+        sensor_id,
+
+        -- Categorical dimensions
+        region,
+        crop_type,
+        irrigation_type,
+        fertilizer_type,
+        crop_disease_status,
+
+        -- Environmental metrics
+        CAST(soil_moisture_pct AS DOUBLE)     AS soil_moisture_pct,
+        CAST(soil_ph AS DOUBLE)               AS soil_ph,
+        CAST(temperature_c AS DOUBLE)         AS temperature_c,
+        CAST(rainfall_mm AS DOUBLE)            AS rainfall_mm,
+        CAST(humidity_pct AS DOUBLE)           AS humidity_pct,
+        CAST(sunlight_hours AS DOUBLE)         AS sunlight_hours,
+        CAST(ndvi_index AS DOUBLE)             AS ndvi_index,
+
+        -- Operations
+        CAST(pesticide_usage_ml AS DOUBLE)     AS pesticide_usage_ml,
+
+        -- Dates and time
+        CAST(sowing_date AS DATE)              AS sowing_date,
+        CAST(harvest_date AS DATE)             AS harvest_date,
+        CAST(total_days AS INTEGER)             AS total_days,
+        CAST(timestamp AS TIMESTAMP)           AS sensor_timestamp,
+
+        -- Location
+        CAST(latitude AS DOUBLE)               AS latitude,
+        CAST(longitude AS DOUBLE)              AS longitude,
+
+        -- Target
+        CAST(yield_kg_per_hectare AS DOUBLE)   AS yield_kg_per_hectare
+
+    FROM source
+),
+
+enriched AS (
+
+    SELECT
+        *,
+
+        -- =================================================
+        -- Exploratory feature 1: disease severity score
+        -- =================================================
+        CASE
+            WHEN crop_disease_status = 'None' THEN 0
+            WHEN crop_disease_status = 'Mild' THEN 1
+            WHEN crop_disease_status = 'Moderate' THEN 2
+            WHEN crop_disease_status = 'Severe' THEN 3
+            ELSE NULL
+        END AS disease_severity_score,
+
+        -- =================================================
+        -- Exploratory feature 2: yield per day
+        -- Helps normalize across crops with different cycles
+        -- =================================================
+        CASE
+            WHEN total_days > 0
+            THEN yield_kg_per_hectare / total_days
+            ELSE NULL
+        END AS yield_per_day,
+
+        -- =================================================
+        -- Exploratory feature 3: NDVI health buckets
+        -- Useful for BI and early warning signals
+        -- =================================================
+        CASE
+            WHEN ndvi_index < 0.45 THEN 'Low'
+            WHEN ndvi_index BETWEEN 0.45 AND 0.65 THEN 'Medium'
+            WHEN ndvi_index > 0.65 THEN 'High'
+            ELSE 'Unknown'
+        END AS ndvi_health_bucket,
+
+        -- =================================================
+        -- Exploratory feature 4: soil pH suitability flag
+        -- =================================================
+        CASE
+            WHEN soil_ph BETWEEN 6.0 AND 7.0 THEN 1
+            ELSE 0
+        END AS optimal_soil_ph_flag
+
+    FROM typed
+)
+
+SELECT *
+FROM enriched
+  );
+
+[0m20:40:30.868741 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m20:40:30.869896 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: ROLLBACK
+[0m20:40:30.884806 [debug] [Thread-1 (]: Failed to rollback 'model.smart_farming.stg_smart_farming'
+[0m20:40:30.885531 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: Close
+[0m20:40:30.894558 [debug] [Thread-1 (]: Runtime Error in model stg_smart_farming (models\staging\stg_smart_farming.sql)
+  Catalog Error: Table with name smart_farming_sensor_data does not exist!
+  Did you mean "information_schema.table_constraints"?
+  
+  LINE 16:     FROM "smart_farming"."main"."smart_farming_sensor_data"
+                    ^
+[0m20:40:30.897865 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'af9b79e2-85c3-4851-9833-0a6ce607e260', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839E2C3050>]}
+[0m20:40:30.898938 [error] [Thread-1 (]: 1 of 1 ERROR creating sql view model main.stg_smart_farming .................... [[31mERROR[0m in 0.16s]
+[0m20:40:30.900926 [debug] [Thread-1 (]: Finished running node model.smart_farming.stg_smart_farming
+[0m20:40:30.901893 [debug] [Thread-4 (]: Marking all children of 'model.smart_farming.stg_smart_farming' to be skipped because of status 'error'.  Reason: Runtime Error in model stg_smart_farming (models\staging\stg_smart_farming.sql)
+  Catalog Error: Table with name smart_farming_sensor_data does not exist!
+  Did you mean "information_schema.table_constraints"?
+  
+  LINE 16:     FROM "smart_farming"."main"."smart_farming_sensor_data"
+                    ^.
+[0m20:40:30.904637 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:40:30.905691 [debug] [MainThread]: On master: BEGIN
+[0m20:40:30.906492 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:40:30.907931 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:40:30.908477 [debug] [MainThread]: On master: COMMIT
+[0m20:40:30.908986 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:40:30.909657 [debug] [MainThread]: On master: COMMIT
+[0m20:40:30.910647 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m20:40:30.911501 [debug] [MainThread]: On master: Close
+[0m20:40:30.912483 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:40:30.913212 [debug] [MainThread]: Connection 'create_smart_farming_main' was properly closed.
+[0m20:40:30.913917 [debug] [MainThread]: Connection 'list_smart_farming_main' was properly closed.
+[0m20:40:30.914626 [debug] [MainThread]: Connection 'model.smart_farming.stg_smart_farming' was properly closed.
+[0m20:40:30.915361 [info ] [MainThread]: 
+[0m20:40:30.916316 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.58 seconds (0.58s).
+[0m20:40:30.919071 [debug] [MainThread]: Command end result
+[0m20:40:31.010521 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\Smart Farming Sensor\smart-farm\target\manifest.json
+[0m20:40:31.014195 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\Smart Farming Sensor\smart-farm\target\semantic_manifest.json
+[0m20:40:31.033074 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\Smart Farming Sensor\smart-farm\target\run_results.json
+[0m20:40:31.034001 [info ] [MainThread]: 
+[0m20:40:31.035499 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m20:40:31.036661 [info ] [MainThread]: 
+[0m20:40:31.037963 [error] [MainThread]: [31mFailure in model stg_smart_farming (models\staging\stg_smart_farming.sql)[0m
+[0m20:40:31.039296 [error] [MainThread]:   Runtime Error in model stg_smart_farming (models\staging\stg_smart_farming.sql)
+  Catalog Error: Table with name smart_farming_sensor_data does not exist!
+  Did you mean "information_schema.table_constraints"?
+  
+  LINE 16:     FROM "smart_farming"."main"."smart_farming_sensor_data"
+                    ^
+[0m20:40:31.042168 [info ] [MainThread]: 
+[0m20:40:31.043702 [info ] [MainThread]:   compiled code at target\compiled\smart_farming\models\staging\stg_smart_farming.sql
+[0m20:40:31.045011 [info ] [MainThread]: 
+[0m20:40:31.050734 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m20:40:31.053376 [debug] [MainThread]: Command `dbt run` failed at 20:40:31.053117 after 3.08 seconds
+[0m20:40:31.054286 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839E2D2780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839E330550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001839E3302D0>]}
+[0m20:40:31.056023 [debug] [MainThread]: Flushing usage events
+[0m20:40:32.835931 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:42:19.676924 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C50BBC12B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C50C680B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C50CD13D90>]}
+
+
+============================== 20:42:19.688012 | 5dd0935e-f2e0-45be-a73f-2ba1f6593c7c ==============================
+[0m20:42:19.688012 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:42:19.689845 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt clean', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:42:20.021005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5dd0935e-f2e0-45be-a73f-2ba1f6593c7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C50C069810>]}
+[0m20:42:20.127529 [debug] [MainThread]: Command `dbt clean` succeeded at 20:42:20.127237 after 0.70 seconds
+[0m20:42:20.128403 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C50CBB7F00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C50CBB7790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C50CC9EE50>]}
+[0m20:42:20.133707 [debug] [MainThread]: Flushing usage events
+[0m20:42:22.120311 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:42:27.883423 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218046612B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021805120B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218057B3D90>]}
+
+
+============================== 20:42:27.897133 | 93b19271-a29a-45a4-ab43-43d140fdca75 ==============================
+[0m20:42:27.897133 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:42:27.898973 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt seed', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:42:28.490076 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '93b19271-a29a-45a4-ab43-43d140fdca75', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021804B09810>]}
+[0m20:42:28.661031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '93b19271-a29a-45a4-ab43-43d140fdca75', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021806A4D150>]}
+[0m20:42:28.667884 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m20:42:29.230545 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m20:42:29.232905 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:42:29.234366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '93b19271-a29a-45a4-ab43-43d140fdca75', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021806874850>]}
+[0m20:42:32.713599 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.smart_farming.marts
+[0m20:42:32.726107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '93b19271-a29a-45a4-ab43-43d140fdca75', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021806C427B0>]}
+[0m20:42:33.027493 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\Smart Farming Sensor\smart-farm\target\manifest.json
+[0m20:42:33.039645 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\Smart Farming Sensor\smart-farm\target\semantic_manifest.json
+[0m20:42:33.092218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '93b19271-a29a-45a4-ab43-43d140fdca75', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021806DC59B0>]}
+[0m20:42:33.093379 [info ] [MainThread]: Found 1 model, 1 seed, 472 macros
+[0m20:42:33.095030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '93b19271-a29a-45a4-ab43-43d140fdca75', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021806D6BEE0>]}
+[0m20:42:33.100650 [info ] [MainThread]: 
+[0m20:42:33.102167 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:42:33.103922 [info ] [MainThread]: 
+[0m20:42:33.105620 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m20:42:33.107698 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_smart_farming'
+[0m20:42:33.321417 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming"
+[0m20:42:33.322515 [debug] [ThreadPool]: On list_smart_farming: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "list_smart_farming"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"smart_farming"'
+    
+  
+  
+[0m20:42:33.323644 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:42:33.387098 [debug] [ThreadPool]: SQL status: OK in 0.063 seconds
+[0m20:42:33.390671 [debug] [ThreadPool]: On list_smart_farming: Close
+[0m20:42:33.392250 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_smart_farming, now create_smart_farming_main)
+[0m20:42:33.392905 [debug] [ThreadPool]: Creating schema "database: "smart_farming"
+schema: "main"
+"
+[0m20:42:33.404569 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:42:33.405200 [debug] [ThreadPool]: On create_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "create_smart_farming_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='smart_farming'
+        and type='sqlite'
+    
+  
+[0m20:42:33.405784 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:42:33.407763 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m20:42:33.411544 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:42:33.412478 [debug] [ThreadPool]: On create_smart_farming_main: BEGIN
+[0m20:42:33.413908 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m20:42:33.414732 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:42:33.415707 [debug] [ThreadPool]: On create_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "create_smart_farming_main"} */
+
+    
+    
+        create schema if not exists "smart_farming"."main"
+    
+[0m20:42:33.417307 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m20:42:33.419755 [debug] [ThreadPool]: On create_smart_farming_main: COMMIT
+[0m20:42:33.420632 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:42:33.421430 [debug] [ThreadPool]: On create_smart_farming_main: COMMIT
+[0m20:42:33.422726 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m20:42:33.423320 [debug] [ThreadPool]: On create_smart_farming_main: Close
+[0m20:42:33.436843 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_smart_farming_main'
+[0m20:42:33.454498 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming_main"
+[0m20:42:33.455113 [debug] [ThreadPool]: On list_smart_farming_main: BEGIN
+[0m20:42:33.455612 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:42:33.456750 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m20:42:33.457604 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming_main"
+[0m20:42:33.458655 [debug] [ThreadPool]: On list_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "list_smart_farming_main"} */
+select
+      'smart_farming' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'smart_farming'
+  
+[0m20:42:33.507729 [debug] [ThreadPool]: SQL status: OK in 0.048 seconds
+[0m20:42:33.511058 [debug] [ThreadPool]: On list_smart_farming_main: ROLLBACK
+[0m20:42:33.513670 [debug] [ThreadPool]: Failed to rollback 'list_smart_farming_main'
+[0m20:42:33.514608 [debug] [ThreadPool]: On list_smart_farming_main: Close
+[0m20:42:33.516139 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '93b19271-a29a-45a4-ab43-43d140fdca75', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002180707E210>]}
+[0m20:42:33.517087 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:42:33.517607 [debug] [MainThread]: On master: BEGIN
+[0m20:42:33.518078 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:42:33.519093 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:42:33.519978 [debug] [MainThread]: On master: COMMIT
+[0m20:42:33.520786 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:42:33.521542 [debug] [MainThread]: On master: COMMIT
+[0m20:42:33.523107 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:42:33.524128 [debug] [MainThread]: On master: Close
+[0m20:42:33.530163 [debug] [Thread-1 (]: Began running node seed.smart_farming.smart_farming_sensor_data
+[0m20:42:33.531635 [info ] [Thread-1 (]: 1 of 1 START seed file main.smart_farming_sensor_data .......................... [RUN]
+[0m20:42:33.533335 [debug] [Thread-1 (]: Acquiring new duckdb connection 'seed.smart_farming.smart_farming_sensor_data'
+[0m20:42:33.534402 [debug] [Thread-1 (]: Began compiling node seed.smart_farming.smart_farming_sensor_data
+[0m20:42:33.535407 [debug] [Thread-1 (]: Began executing node seed.smart_farming.smart_farming_sensor_data
+[0m20:42:33.808478 [debug] [Thread-1 (]: Using duckdb connection "seed.smart_farming.smart_farming_sensor_data"
+[0m20:42:33.809663 [debug] [Thread-1 (]: On seed.smart_farming.smart_farming_sensor_data: BEGIN
+[0m20:42:33.810665 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:42:33.812830 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m20:42:33.813547 [debug] [Thread-1 (]: Using duckdb connection "seed.smart_farming.smart_farming_sensor_data"
+[0m20:42:33.814272 [debug] [Thread-1 (]: On seed.smart_farming.smart_farming_sensor_data: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "node_id": "seed.smart_farming.smart_farming_sensor_data"} */
+
+    create table "smart_farming"."main"."smart_farming_sensor_data" ("farm_id" text,"region" text,"crop_type" text,"soil_moisture_pct" float8,"soil_pH" float8,"temperature_c" float8,"rainfall_mm" float8,"humidity_pct" float8,"sunlight_hours" float8,"irrigation_type" text,"fertilizer_type" text,"pesticide_usage_ml" float8,"sowing_date" date,"harvest_date" text,"total_days" integer,"yield_kg_per_hectare" float8,"sensor_id" text,"timestamp" text,"latitude" float8,"longitude" float8,"NDVI_index" float8,"crop_disease_status" text)
+  
+[0m20:42:33.823432 [debug] [Thread-1 (]: SQL status: OK in 0.008 seconds
+[0m20:42:33.845608 [debug] [Thread-1 (]: Using duckdb connection "seed.smart_farming.smart_farming_sensor_data"
+[0m20:42:33.846331 [debug] [Thread-1 (]: On seed.smart_farming.smart_farming_sensor_data: 
+          COPY "smart_farming"."main"."smart_farming_sensor_data" FROM 'C:\kev\Smart Farming Sensor\smart-farm\seeds\smart_farming_sensor_data.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        ...
+[0m20:42:34.022656 [debug] [Thread-1 (]: SQL status: OK in 0.175 seconds
+[0m20:42:34.036662 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.smart_farming.smart_farming_sensor_data"
+[0m20:42:34.068895 [debug] [Thread-1 (]: On seed.smart_farming.smart_farming_sensor_data: COMMIT
+[0m20:42:34.070076 [debug] [Thread-1 (]: Using duckdb connection "seed.smart_farming.smart_farming_sensor_data"
+[0m20:42:34.070907 [debug] [Thread-1 (]: On seed.smart_farming.smart_farming_sensor_data: COMMIT
+[0m20:42:34.080410 [debug] [Thread-1 (]: SQL status: OK in 0.009 seconds
+[0m20:42:34.084918 [debug] [Thread-1 (]: On seed.smart_farming.smart_farming_sensor_data: Close
+[0m20:42:34.087890 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '93b19271-a29a-45a4-ab43-43d140fdca75', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002180706D0D0>]}
+[0m20:42:34.088670 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file main.smart_farming_sensor_data ...................... [[32mINSERT 500[0m in 0.55s]
+[0m20:42:34.090423 [debug] [Thread-1 (]: Finished running node seed.smart_farming.smart_farming_sensor_data
+[0m20:42:34.092187 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:42:34.092731 [debug] [MainThread]: On master: BEGIN
+[0m20:42:34.093097 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:42:34.094132 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:42:34.094944 [debug] [MainThread]: On master: COMMIT
+[0m20:42:34.095734 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:42:34.096488 [debug] [MainThread]: On master: COMMIT
+[0m20:42:34.097924 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:42:34.098865 [debug] [MainThread]: On master: Close
+[0m20:42:34.099833 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:42:34.100830 [debug] [MainThread]: Connection 'create_smart_farming_main' was properly closed.
+[0m20:42:34.101617 [debug] [MainThread]: Connection 'list_smart_farming_main' was properly closed.
+[0m20:42:34.102332 [debug] [MainThread]: Connection 'seed.smart_farming.smart_farming_sensor_data' was properly closed.
+[0m20:42:34.103139 [info ] [MainThread]: 
+[0m20:42:34.106577 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 1.00 seconds (1.00s).
+[0m20:42:34.110759 [debug] [MainThread]: Command end result
+[0m20:42:34.185890 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\Smart Farming Sensor\smart-farm\target\manifest.json
+[0m20:42:34.191264 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\Smart Farming Sensor\smart-farm\target\semantic_manifest.json
+[0m20:42:34.207194 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\Smart Farming Sensor\smart-farm\target\run_results.json
+[0m20:42:34.208067 [info ] [MainThread]: 
+[0m20:42:34.211153 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m20:42:34.212631 [info ] [MainThread]: 
+[0m20:42:34.214653 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m20:42:34.220701 [debug] [MainThread]: Command `dbt seed` succeeded at 20:42:34.220364 after 6.58 seconds
+[0m20:42:34.221770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021807029C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002180725FB60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021807239350>]}
+[0m20:42:34.222796 [debug] [MainThread]: Flushing usage events
+[0m20:42:36.112126 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:42:41.861955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243C96152B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CA0D0B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CA763D90>]}
+
+
+============================== 20:42:41.868360 | c24cfe47-102b-47cc-b558-4e8e42f0b775 ==============================
+[0m20:42:41.868360 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:42:41.869804 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Evans Moseti\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\kev\\Smart Farming Sensor\\smart-farm\\logs'}
+[0m20:42:42.460326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c24cfe47-102b-47cc-b558-4e8e42f0b775', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243C9AB9810>]}
+[0m20:42:42.624969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c24cfe47-102b-47cc-b558-4e8e42f0b775', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CB9F9150>]}
+[0m20:42:42.631693 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m20:42:43.208631 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m20:42:43.547743 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:42:43.548757 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m20:42:43.549490 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:42:43.566371 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.smart_farming.marts
+[0m20:42:43.665620 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c24cfe47-102b-47cc-b558-4e8e42f0b775', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CA854F50>]}
+[0m20:42:43.846319 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\Smart Farming Sensor\smart-farm\target\manifest.json
+[0m20:42:43.851656 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\Smart Farming Sensor\smart-farm\target\semantic_manifest.json
+[0m20:42:43.911543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c24cfe47-102b-47cc-b558-4e8e42f0b775', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CA683110>]}
+[0m20:42:43.912559 [info ] [MainThread]: Found 1 model, 1 seed, 472 macros
+[0m20:42:43.913773 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c24cfe47-102b-47cc-b558-4e8e42f0b775', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CA8834D0>]}
+[0m20:42:43.919312 [info ] [MainThread]: 
+[0m20:42:43.920959 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:42:43.922699 [info ] [MainThread]: 
+[0m20:42:43.924634 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m20:42:43.926699 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_smart_farming'
+[0m20:42:44.119250 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming"
+[0m20:42:44.120474 [debug] [ThreadPool]: On list_smart_farming: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "list_smart_farming"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"smart_farming"'
+    
+  
+  
+[0m20:42:44.121448 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:42:44.180423 [debug] [ThreadPool]: SQL status: OK in 0.059 seconds
+[0m20:42:44.184093 [debug] [ThreadPool]: On list_smart_farming: Close
+[0m20:42:44.185792 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_smart_farming, now create_smart_farming_main)
+[0m20:42:44.186974 [debug] [ThreadPool]: Creating schema "database: "smart_farming"
+schema: "main"
+"
+[0m20:42:44.204658 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:42:44.205617 [debug] [ThreadPool]: On create_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "create_smart_farming_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='smart_farming'
+        and type='sqlite'
+    
+  
+[0m20:42:44.206436 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m20:42:44.208819 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m20:42:44.211587 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:42:44.212159 [debug] [ThreadPool]: On create_smart_farming_main: BEGIN
+[0m20:42:44.213168 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m20:42:44.213980 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:42:44.214775 [debug] [ThreadPool]: On create_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "create_smart_farming_main"} */
+
+    
+    
+        create schema if not exists "smart_farming"."main"
+    
+[0m20:42:44.216245 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m20:42:44.218688 [debug] [ThreadPool]: On create_smart_farming_main: COMMIT
+[0m20:42:44.219546 [debug] [ThreadPool]: Using duckdb connection "create_smart_farming_main"
+[0m20:42:44.220327 [debug] [ThreadPool]: On create_smart_farming_main: COMMIT
+[0m20:42:44.221368 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m20:42:44.222236 [debug] [ThreadPool]: On create_smart_farming_main: Close
+[0m20:42:44.236393 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_smart_farming_main'
+[0m20:42:44.247841 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming_main"
+[0m20:42:44.248501 [debug] [ThreadPool]: On list_smart_farming_main: BEGIN
+[0m20:42:44.249069 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:42:44.250669 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m20:42:44.251558 [debug] [ThreadPool]: Using duckdb connection "list_smart_farming_main"
+[0m20:42:44.252412 [debug] [ThreadPool]: On list_smart_farming_main: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "connection_name": "list_smart_farming_main"} */
+select
+      'smart_farming' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'smart_farming'
+  
+[0m20:42:44.303548 [debug] [ThreadPool]: SQL status: OK in 0.050 seconds
+[0m20:42:44.307591 [debug] [ThreadPool]: On list_smart_farming_main: ROLLBACK
+[0m20:42:44.310066 [debug] [ThreadPool]: Failed to rollback 'list_smart_farming_main'
+[0m20:42:44.310529 [debug] [ThreadPool]: On list_smart_farming_main: Close
+[0m20:42:44.311657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c24cfe47-102b-47cc-b558-4e8e42f0b775', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CBFF2C30>]}
+[0m20:42:44.312364 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:42:44.312870 [debug] [MainThread]: On master: BEGIN
+[0m20:42:44.313347 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:42:44.314417 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:42:44.315248 [debug] [MainThread]: On master: COMMIT
+[0m20:42:44.315786 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:42:44.316311 [debug] [MainThread]: On master: COMMIT
+[0m20:42:44.317261 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m20:42:44.318101 [debug] [MainThread]: On master: Close
+[0m20:42:44.325539 [debug] [Thread-1 (]: Began running node model.smart_farming.stg_smart_farming
+[0m20:42:44.326823 [info ] [Thread-1 (]: 1 of 1 START sql view model main.stg_smart_farming ............................. [RUN]
+[0m20:42:44.328904 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.smart_farming.stg_smart_farming'
+[0m20:42:44.330012 [debug] [Thread-1 (]: Began compiling node model.smart_farming.stg_smart_farming
+[0m20:42:44.352411 [debug] [Thread-1 (]: Writing injected SQL for node "model.smart_farming.stg_smart_farming"
+[0m20:42:44.357962 [debug] [Thread-1 (]: Began executing node model.smart_farming.stg_smart_farming
+[0m20:42:44.438685 [debug] [Thread-1 (]: Writing runtime sql for node "model.smart_farming.stg_smart_farming"
+[0m20:42:44.441737 [debug] [Thread-1 (]: Using duckdb connection "model.smart_farming.stg_smart_farming"
+[0m20:42:44.442823 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: BEGIN
+[0m20:42:44.443830 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:42:44.446005 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m20:42:44.447167 [debug] [Thread-1 (]: Using duckdb connection "model.smart_farming.stg_smart_farming"
+[0m20:42:44.448667 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "node_id": "model.smart_farming.stg_smart_farming"} */
+
+  
+  create view "smart_farming"."main"."stg_smart_farming__dbt_tmp" as (
+    -- =====================================================
+-- STAGING MODEL: Smart Farming Sensor Data
+-- Purpose:
+-- 1. Standardize types
+-- 2. Normalize categorical logic
+-- 3. Add light exploratory features (clearly labeled)
+-- =====================================================
+
+WITH source AS (
+
+    SELECT *
+    FROM "smart_farming"."main"."smart_farming_sensor_data"
+
+),
+
+typed AS (
+
+    SELECT
+        -- Identifiers
+        farm_id,
+        sensor_id,
+
+        -- Categorical dimensions
+        region,
+        crop_type,
+        irrigation_type,
+        fertilizer_type,
+        crop_disease_status,
+
+        -- Environmental metrics
+        CAST(soil_moisture_pct AS DOUBLE)     AS soil_moisture_pct,
+        CAST(soil_ph AS DOUBLE)               AS soil_ph,
+        CAST(temperature_c AS DOUBLE)         AS temperature_c,
+        CAST(rainfall_mm AS DOUBLE)            AS rainfall_mm,
+        CAST(humidity_pct AS DOUBLE)           AS humidity_pct,
+        CAST(sunlight_hours AS DOUBLE)         AS sunlight_hours,
+        CAST(ndvi_index AS DOUBLE)             AS ndvi_index,
+
+        -- Operations
+        CAST(pesticide_usage_ml AS DOUBLE)     AS pesticide_usage_ml,
+
+        -- Dates and time
+        CAST(sowing_date AS DATE)              AS sowing_date,
+        CAST(harvest_date AS DATE)             AS harvest_date,
+        CAST(total_days AS INTEGER)             AS total_days,
+        CAST(timestamp AS TIMESTAMP)           AS sensor_timestamp,
+
+        -- Location
+        CAST(latitude AS DOUBLE)               AS latitude,
+        CAST(longitude AS DOUBLE)              AS longitude,
+
+        -- Target
+        CAST(yield_kg_per_hectare AS DOUBLE)   AS yield_kg_per_hectare
+
+    FROM source
+),
+
+enriched AS (
+
+    SELECT
+        *,
+
+        -- =================================================
+        -- Exploratory feature 1: disease severity score
+        -- =================================================
+        CASE
+            WHEN crop_disease_status = 'None' THEN 0
+            WHEN crop_disease_status = 'Mild' THEN 1
+            WHEN crop_disease_status = 'Moderate' THEN 2
+            WHEN crop_disease_status = 'Severe' THEN 3
+            ELSE NULL
+        END AS disease_severity_score,
+
+        -- =================================================
+        -- Exploratory feature 2: yield per day
+        -- Helps normalize across crops with different cycles
+        -- =================================================
+        CASE
+            WHEN total_days > 0
+            THEN yield_kg_per_hectare / total_days
+            ELSE NULL
+        END AS yield_per_day,
+
+        -- =================================================
+        -- Exploratory feature 3: NDVI health buckets
+        -- Useful for BI and early warning signals
+        -- =================================================
+        CASE
+            WHEN ndvi_index < 0.45 THEN 'Low'
+            WHEN ndvi_index BETWEEN 0.45 AND 0.65 THEN 'Medium'
+            WHEN ndvi_index > 0.65 THEN 'High'
+            ELSE 'Unknown'
+        END AS ndvi_health_bucket,
+
+        -- =================================================
+        -- Exploratory feature 4: soil pH suitability flag
+        -- =================================================
+        CASE
+            WHEN soil_ph BETWEEN 6.0 AND 7.0 THEN 1
+            ELSE 0
+        END AS optimal_soil_ph_flag
+
+    FROM typed
+)
+
+SELECT *
+FROM enriched
+  );
+
+[0m20:42:44.454113 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m20:42:44.471188 [debug] [Thread-1 (]: Using duckdb connection "model.smart_farming.stg_smart_farming"
+[0m20:42:44.472332 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "node_id": "model.smart_farming.stg_smart_farming"} */
+alter view "smart_farming"."main"."stg_smart_farming__dbt_tmp" rename to "stg_smart_farming"
+[0m20:42:44.475221 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m20:42:44.506505 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: COMMIT
+[0m20:42:44.507656 [debug] [Thread-1 (]: Using duckdb connection "model.smart_farming.stg_smart_farming"
+[0m20:42:44.508630 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: COMMIT
+[0m20:42:44.520015 [debug] [Thread-1 (]: SQL status: OK in 0.010 seconds
+[0m20:42:44.533009 [debug] [Thread-1 (]: Using duckdb connection "model.smart_farming.stg_smart_farming"
+[0m20:42:44.533741 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "smart_farming", "target_name": "dev", "node_id": "model.smart_farming.stg_smart_farming"} */
+
+      drop view if exists "smart_farming"."main"."stg_smart_farming__dbt_backup" cascade
+    
+[0m20:42:44.536020 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m20:42:44.541358 [debug] [Thread-1 (]: On model.smart_farming.stg_smart_farming: Close
+[0m20:42:44.544411 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c24cfe47-102b-47cc-b558-4e8e42f0b775', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CBDE6510>]}
+[0m20:42:44.545361 [info ] [Thread-1 (]: 1 of 1 OK created sql view model main.stg_smart_farming ........................ [[32mOK[0m in 0.21s]
+[0m20:42:44.547084 [debug] [Thread-1 (]: Finished running node model.smart_farming.stg_smart_farming
+[0m20:42:44.549081 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:42:44.549522 [debug] [MainThread]: On master: BEGIN
+[0m20:42:44.550225 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m20:42:44.551194 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m20:42:44.552041 [debug] [MainThread]: On master: COMMIT
+[0m20:42:44.552840 [debug] [MainThread]: Using duckdb connection "master"
+[0m20:42:44.553601 [debug] [MainThread]: On master: COMMIT
+[0m20:42:44.554742 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m20:42:44.555266 [debug] [MainThread]: On master: Close
+[0m20:42:44.555889 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:42:44.556356 [debug] [MainThread]: Connection 'create_smart_farming_main' was properly closed.
+[0m20:42:44.556812 [debug] [MainThread]: Connection 'list_smart_farming_main' was properly closed.
+[0m20:42:44.557261 [debug] [MainThread]: Connection 'model.smart_farming.stg_smart_farming' was properly closed.
+[0m20:42:44.558113 [info ] [MainThread]: 
+[0m20:42:44.559793 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.63 seconds (0.63s).
+[0m20:42:44.564800 [debug] [MainThread]: Command end result
+[0m20:42:44.742476 [debug] [MainThread]: Wrote artifact WritableManifest to C:\kev\Smart Farming Sensor\smart-farm\target\manifest.json
+[0m20:42:44.746004 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\kev\Smart Farming Sensor\smart-farm\target\semantic_manifest.json
+[0m20:42:44.761225 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\kev\Smart Farming Sensor\smart-farm\target\run_results.json
+[0m20:42:44.762056 [info ] [MainThread]: 
+[0m20:42:44.766281 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m20:42:44.767694 [info ] [MainThread]: 
+[0m20:42:44.769325 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m20:42:44.772604 [debug] [MainThread]: Command `dbt run` succeeded at 20:42:44.772275 after 3.15 seconds
+[0m20:42:44.773606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CBDFE780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CA06BA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CBAA8230>]}
+[0m20:42:44.774569 [debug] [MainThread]: Flushing usage events
+[0m20:42:46.537115 [debug] [MainThread]: An error was encountered while trying to flush usage events

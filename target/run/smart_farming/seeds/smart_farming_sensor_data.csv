@@ -1,0 +1,13 @@
+
+    
+    
+    
+    create table "smart_farming"."main"."smart_farming_sensor_data" ("farm_id" text,"region" text,"crop_type" text,"soil_moisture_pct" float8,"soil_pH" float8,"temperature_c" float8,"rainfall_mm" float8,"humidity_pct" float8,"sunlight_hours" float8,"irrigation_type" text,"fertilizer_type" text,"pesticide_usage_ml" float8,"sowing_date" date,"harvest_date" text,"total_days" integer,"yield_kg_per_hectare" float8,"sensor_id" text,"timestamp" text,"latitude" float8,"longitude" float8,"NDVI_index" float8,"crop_disease_status" text)
+  ;
+    -- dbt seed --
+    
+          COPY "smart_farming"."main"."smart_farming_sensor_data" FROM 'C:\kev\Smart Farming Sensor\smart-farm\seeds\smart_farming_sensor_data.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

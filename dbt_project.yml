@@ -1,27 +1,23 @@
-seeds:
+name: smart_farming
+version: "1.0.0"
+config-version: 2
+
+profile: smart_farming
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
   smart_farming:
-    +schema: raw
-    +quote_columns: false
-    +column_types:
-      farm_id: varchar
-      region: varchar
-      crop_type: varchar
-      soil_moisture_pct: double
-      soil_ph: double
-      temperature_c: double
-      rainfall_mm: double
-      humidity_pct: double
-      sunlight_hours: double
-      irrigation_type: varchar
-      fertilizer_type: varchar
-      pesticide_usage_ml: double
-      sowing_date: date
-      harvest_date: date
-      total_days: integer
-      yield_kg_per_hectare: double
-      sensor_id: varchar
-      timestamp: timestamp
-      latitude: double
-      longitude: double
-      ndvi_index: double
-      crop_disease_status: varchar
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

@@ -1,0 +1,1 @@
+{"_invocation_id": "c24cfe47-102b-47cc-b558-4e8e42f0b775", "linked": {"0": {"name": "model.smart_farming.stg_smart_farming", "type": "model"}, "1": {"name": "seed.smart_farming.smart_farming_sensor_data", "type": "seed", "succ": [0]}}}
